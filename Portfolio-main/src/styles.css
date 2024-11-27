@@ -1,0 +1,863 @@
+.lang{
+    color: black;
+}
+
+.lang:hover{
+    color:#2262c9;
+}
+
+.social:hover{
+    color:#2262c9;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+/* Position the nav container in the top right */
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px; /* Add some padding for spacing */
+    display: flex;
+    justify-content: flex-end; /* Align the list to the right */
+}
+
+/* Style for the social media icons in the nav */
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: auto; /* Remove the fixed width */
+}
+
+li {
+    margin-left: 15px; /* Add space between the icons */
+}
+
+.social {
+    display: block;
+    color: black; /* Initial color */
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for social icons */
+.social:hover {
+    color: #2262c9; /* Change color on hover */
+}
+
+/* Optionally, you can set specific size for the social media icons */
+.social svg {
+    width: 50px;
+    height: 50px;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #000;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover{
+    background-color: #2262c9;
+    color: #fff;
+}
+
+/* p {
+    height: 4rem;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 0.5 rem; 
+    justify-content: flex-end;
+}
+
+p span {
+    display: block; 
+    line-height: 4rem; 
+    font-size: 4rem;
+    text-transform: uppercase;
+    transform: translateY(200%);
+    margin: 0.05rem;
+}
+
+p span.active {
+transform: translateY(0%);
+transition: 1s ease-out;
+} */
+
+body {
+    font-family: 'Mukta', sans-serif;
+    background-color: transparent;
+}
+
+section {
+    background-color: transparent;
+}
+
+.hero {
+    background-color: transparent;
+    height: 100vh;
+    color: #000;
+    font-size: 40px;
+    position: relative; /* Add this line to allow absolute positioning within .hero */
+}
+
+.hero2 {
+    background-color: transparent;
+    height: 1800px;
+    color: #2262c9;
+    position: relative; /* Add this line to allow absolute positioning within .hero */
+}
+
+.hero3 {
+    background-color: transparent;
+    height: flex;
+    color: #2262c9;
+    position: relative; /* Add this line to allow absolute positioning within .hero */
+}
+
+footer {
+    background-color: transparent;
+    color: #2262c9;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    
+}
+
+h2 {
+    font-size: 40px;
+    display: center;
+    color: #2262c9;
+}
+
+h3 {
+    font-size: 60px;
+    text-align: center; /* Centers the text horizontally */
+    color: #2262c9;
+    margin: 0; /* Reduces the default margin */
+    padding: 0; /* Reduces any internal padding */
+}
+
+h4 {
+    font-size: 60px;
+}
+
+h5 {
+    font-size: 50px;
+}
+
+h6 {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: -80px;
+}
+
+h7 {
+    font-size: 30px;
+}
+
+h8 {
+    font-size: 35px;
+    color: #000;
+}
+
+h9 {
+    font-size: 38px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: -150px;
+}
+
+p0 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 300;
+    color: #2262c9;
+}
+
+p {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0;
+    font-size: 26px;
+    font-weight: 300;
+    color: #000;
+}
+
+.p2 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+p3 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+}
+
+p31 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 300;
+    color: #C6C3BF;
+}
+
+p4 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+p5 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+p6 {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0;
+    font-size: 26px;
+    font-weight: 300;
+    color: #2262c9;
+}
+
+p7 {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+.subtext {
+    font-size: 19px;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+    color: black;
+}
+
+.button2 {
+    width: 200px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: -50px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.flags-video {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: -70px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.headshot {
+    width: 330px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.expics {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 200px #2262c9;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+}
+
+.maps-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.city {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.project-card:hover{
+    box-shadow: 5px 5px 20px #2262c9;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card2 {
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgb(208, 208, 208);
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+}
+
+.project-container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project-container2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo-video {
+        margin-top: -150px;
+        margin-left: 150px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .archpdf {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.logo-video {
+    margin-top: -150px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 600px;
+    border-radius: 100px;
+    margin-right: -100px;
+    margin-top: -30px;
+    margin-left: 80px; /* Adds space to move it to the right */
+}
+
+.project-image {
+    margin-top:25px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.hr2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.archpdf {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding-top: 100px;
+}
+
+.codepage{
+    margin-top: 26px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.backhome {
+    text-decoration: none;
+    color: white;
+}
+
+.cad-video {
+    margin-top: -200px;
+    margin-bottom: -280px;
+    display: center;
+    align-items: flex;
+    flex-wrap: wrap;
+}
+
+.intro {
+    background: #2262c9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+  
+.intro-text {
+    color: rgb(255, 255, 255);
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+    background: transparent;  /* Remove any background color */
+    padding: 0;               /* Remove padding, if any */
+    border: none;             /* Remove border if there is one */
+}
+  
+.hide {
+    background: transparent;
+    overflow: hidden;
+}
+  
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.infill {
+    color: #2262c9;
+    font-size: 7rem;
+    line-height: 1.0; /* Adjusted line spacing */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: -50px; /* Remove bottom margin */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+}
+
+/* Sub-Section Styling */
+.sub-section-alternative {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.sub-section-alternative h2 {
+    font-size: 40px;
+    display: center;
+    color: #2262c9;
+}
+
+.sub-section-alternative .p2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Gallery Styling */
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 15px; /* Space between items */
+    padding: 20px; /* Padding inside the gallery */
+    max-width: 100%;
+    margin: 0 auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile devices */
+}
+
+/* Gallery Item Styling */
+.gallery-item img {
+    width: 300px; /* Adjust width for all images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+/* Left-aligned Header Styling */
+.left-header {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center; /* Vertically centers content (if needed) */
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional background color */
+    border-bottom: 2px solid #ccc; /* Optional bottom border */
+}
+
+.left-header h1 {
+    margin: 0; /* Removes default margin */
+    font-size: 2rem; /* Adjust font size as needed */
+    color: #2982d5; /* Optional text color */
+}
+
+
+/* General Reset for Both Galleries */
+.parallax-gallery,
+.parallax-gallery-2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 15px; /* Space between items */
+    padding: 20px; /* Padding inside the gallery */
+    max-width: 100%;
+    margin: 0 auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile devices */
+}
+
+/* Styling for Gallery Items */
+.parallax-gallery-item img,
+.parallax-gallery-2-item img {
+    width: 300px; /* Adjust width for all images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect for Both Galleries */
+.parallax-gallery-item img:hover,
+.parallax-gallery-2-item img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+
+/* Gallery Item Styling */
+.gallery-new-item img,
+.gallery-showcase-item img {
+    width: 300px; /* Adjust width for all images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.gallery-new-item img:hover,
+.gallery-showcase-item img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+/* Showcase Gallery Styling */
+.gallery-showcase {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 20px; /* Space between items */
+    padding: 25px; /* Padding inside the gallery */
+    max-width: 100%;
+    margin: 0 auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile devices */
+}
+
+.gallery-showcase-item img {
+    width: 350px; /* Adjust width for all images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect for Showcase Gallery */
+.gallery-showcase-item img:hover {
+    transform: scale(1.08); /* Slightly more zoom on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#response-message {
+    margin-top: 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: green;
+}
+
+
+/* Make sure the html and body elements take up the full height */
+html, body {
+    height: 100%;
+    margin: 0; /* Reset margin */
+}
+
+body {
+    background-image: url('your-image-url.jpg'); /* Update with your background image URL */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-size: cover; /* Ensures the background image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.new-gallery {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.new-gallery h2 {
+    font-size: 40px;
+    display: center;
+    color: #2262c9;
+}
+
+.new-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.new-gallery .gallery-item {
+    flex: 1 1 calc(33% - 20px);
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.new-gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.new-gallery .gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* General Styling for Galleries */
+.gallery-new, .gallery-showcase {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.gallery-new-item, .gallery-showcase-item {
+    width: 30%; /* Ensures all items are the same size */
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-new-item img, .gallery-showcase-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; /* Optional for rounded corners */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.gallery-new-item img:hover, .gallery-showcase-item img:hover {
+    transform: scale(1.05);
+}
+
+.new-gallery .p2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.gallery-large {
+    display: flex;
+    gap: 20px; /* Space between images */
+    justify-content: center; /* Center the gallery */
+    align-items: center;
+    margin: 40px auto; /* Add spacing around the gallery */
+}
+
+.gallery-large-item img {
+    width: 460px; /* Adjust width of images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for a polished look */
+}
+
+/* Unique class for the image container */
+.image-views-custom {
+    display: inline-block;
+    overflow: hidden; /* Ensures rounded corners are respected */
+    border-radius: 12px; /* Rounded corners for the container */
+    transition: transform 0.3s ease-in-out; /* Smooth transformation on hover */
+}
+
+/* Unique class for the image inside the container */
+.right-image-custom {
+    width: 500px; /* Smaller size for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 12px; /* Rounded corners for the image */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling effect */
+}
+
+/* Hover effect for bouncing */
+.image-views-custom:hover .right-image-custom {
+    transform: scale(1.1) translateY(1px); /* Slight enlargement and upward movement */
+}
